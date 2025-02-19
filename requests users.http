@@ -1,0 +1,35 @@
+###
+POST http://localhost:9000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "Vannessa Pisso",
+  "apellido": 30,
+  "direccion": "carrera3",
+  "telefono": "3136113212",
+  "email": "darwmolina@gmail.com"
+}
+
+// Obtener todos los usuarios
+###
+GET http://localhost:9000/api/users HTTP/1.1
+
+// Obtener datos de un usuario
+###
+GET http://localhost:9000/api/users/66e20dd37438bbe78eafdc7b HTTP/1.1
+
+###
+DELETE http://localhost:9000/api/users/66e20dd37438bbe78eafdc7b HTTP/1.1
+
+###
+PUT http://localhost:9000/api/users/6137e2412e329eb206b0073c HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "",
+  "apellido": "",
+  "direccion": "",
+  "telefono": ,
+  "email": ""
+}
+

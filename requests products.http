@@ -1,0 +1,38 @@
+###
+POST http://localhost:4200/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Calzado para dama 19",
+  "price": "90000",
+  "description": "Colección 1",
+  "image": "https://i.postimg.cc/J0zQ2FZZ/18.jpg"
+
+}
+
+// Obtener todos los productos
+###
+GET http://localhost:4200/products HTTP/1.1
+
+// Obtener datos de un producto
+###
+
+GET http://localhost:4200/products/66f245b676428ca6ea4296cd HTTP/1.1
+
+
+// Eliminar datos de un producto
+
+###
+DELETE http://localhost:9000/api/products/1 HTTP/1.1
+
+###
+// Actualizar datos de un producto
+PUT http://localhost:9000/api/products/66f21260c595a6701d805762 HTTP/1.1
+Content-Type: application/json
+
+{
+
+
+
+}
+
