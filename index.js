@@ -26,7 +26,7 @@ app.use(cors({
 
 //routes
 app.get("/", (req, res) => {
-  res.send("Welcome to server");
+  res.send("Bienvenido a MarvalensStore-api");
 });
 
 
