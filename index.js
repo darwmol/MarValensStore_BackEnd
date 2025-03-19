@@ -10,7 +10,7 @@ const productRoutes = require ("./src/routes/product");
 
 const port = process.env.PORT || 4200;
 
-const allowedOrigins = ['https://marvalenstore.web.app', 'http://localhost:4200'];
+const allowedOrigins = ['https://marvalenstores.web.app', 'http://localhost:4200'];
 
 app.use(cors({
   origin: function (origin, callback) {
